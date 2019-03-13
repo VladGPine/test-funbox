@@ -2,7 +2,7 @@ import React from 'react';
 import Product from './Product';
 import productsData from '../products'
 
-// import '../css/product-list.css'
+import './product-list.css'
 
 // import '../img/1.jpg';
 

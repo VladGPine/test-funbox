@@ -17,6 +17,13 @@
   content: '';
   display: block;
   background: linear-gradient(#000000, transparent, #000000);
+  opacity: 0.5;
 }
 
-
+.header {
+  font-family: 'Exo2.0-Thin';
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 28px;
+  z-index: 100;
+}
