@@ -25,13 +25,8 @@ function Product(props) {
           <img className='product-image' src={imgUrl} alt="" />
         </div>
       </foreignObject>
-      <polygon class="ddo" points='45,0 320,0 320,480 0,480 0,45' stroke='#1698d9' strokeWidth='5' />
+      <path d='M 45 2 L 312 2 Q 318 2 318 8 L 318 472 Q 318 478 312 478 L 8 478 Q 2 478 2 472 L 2 45 Z' stroke='#1698d9' fill='none' stroke-width="4px" />
       </g>
-      
-      
-      
-				
-        
 			</svg>
         
       </label>
