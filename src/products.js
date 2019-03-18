@@ -6,8 +6,9 @@ const productsData = [
     taste: 'с фуа-гра',
     amount: '10 порций',
     bonus: 'мышь в подарок',
-    weight: '0,5 кг',
+    weight: '0,5',
     details: 'Печень утки разварная с артишоками.',
+    isAvailable: true,
 		imgUrl: '../.jpg'
   },
   {
@@ -17,8 +18,9 @@ const productsData = [
     taste: 'с рыбой',
     amount: '40 порций',
     bonus: '2 мыши в подарок',
-    weight: '2 кг',
+    weight: '2',
     details: 'Головы щучьи с чесноком да свежайшая сёмгушка.',
+    isAvailable: true,
 		imgUrl: '../.jpg'
   },
   {
@@ -28,8 +30,9 @@ const productsData = [
     taste: 'с курой',
     amount: '100 порций',
     bonus: '5 мышей в подарок',
-    weight: '5 кг',
+    weight: '5',
     details: 'Филе из цыплят с трюфелями в бульоне.',
+    isAvailable: false,
 		imgUrl: '../.jpg'
   }
 ]

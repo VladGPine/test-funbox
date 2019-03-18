@@ -1,4 +1,7 @@
 .product-wrapper {
+  display: flex;
+  width: 320px;
+  height: 560px;
   -webkit-clip-path: polygon(45px 0px, 320px 0px, 320px 480px, 0px 480px, 0px 45px);
   clip-path: polygon(45px 0px, 320px 0px, 320px 480px, 0px 480px, 0px 45px);
 }
@@ -16,7 +19,8 @@
 
 
 .product-wrapper:not(:last-child) {
-  margin-right: 80px;
+  /* margin-right: 80px; */
+  /* margin-bottom: 80px; */
 }
 
 .product-pretitle,
@@ -59,6 +63,25 @@
   margin-left: 49px;
 }
 
+.product-details {
+  margin-top: 10px;
+  /* color: #ffffff; */
+}
+
+.product-weight {
+  font-family: 'Trebuchet MS', sans-serif;
+  fill: #ffffff;
+  text-anchor: middle;
+}
+
+.product-weight tspan:first-child {
+  font-size: 42px;
+}
+
+.product-weight tspan:last-child {
+  font-size: 21px;
+}
+
 input[type='checkbox'] {
   display: none;
 }
@@ -66,13 +89,31 @@ input[type='checkbox'] {
 
 
 
-
-
-@media (max-width: 1119px) {
+@media (min-width: 1120px) {
   .product-wrapper:not(:last-child) {
-    margin-bottom: 80px;
-  }
-  .product-wrapper:not(:nth-child(2n + 2)) {
     margin-right: 80px;
+  }
+}
+
+@media (min-width: 1040px) and (max-width: 1119px) {
+
+  .product-wrapper:not(:last-child) {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1039px) {
+
+  .product-wrapper:not(:nth-child(n+2)) {
+    margin-right: 80px;
+  }
+}
+
+
+@media (min-width: 640px) and (max-width: 799px) {
+
+  .product-wrapper {
+    margin: 0 auto;
   }
 }
