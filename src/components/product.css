@@ -10,7 +10,7 @@
   background-color: #f2f2f2;
   background-image: url(../img/cat-preview.png);
   background-repeat: no-repeat;
-  background-position: -30px 210px;
+  background-position: -25px 205px;
   border-radius: 5px;
 }
 
@@ -24,13 +24,15 @@
 .product-taste,
 .product-amount,
 .product-bonus {
-  margin: 0 0 0 38px;
+  margin: 0;
 }
 
 .product-pretitle {
   font-size: 16px;
   color: #666666;
-  padding-top: 24px;
+  padding-top: 20px;
+  margin-left: 48px;
+  margin-bottom: 4px;
 }
 
 
@@ -38,13 +40,23 @@
   font-size: 48px;
   font-weight: bold;
   color: #000000;
+  margin-left: 46px;
+  margin-bottom: -1px;
+  
 }
 
 .product-taste {
   font-size: 24px;
   font-weight: bold;
   color: #000000;
-  margin-bottom: 20px;
+  margin-left: 48px;
+  margin-bottom: 14px;
+}
+
+.product-amount,
+.product-bonus {
+  font-size: 14px;
+  margin-left: 49px;
 }
 
 input[type='checkbox'] {

@@ -1,7 +1,7 @@
 const productsData = [
 	{
 		id: 1,
-    pretitle: 'Сказочное заморское явство',
+    pretitle: 'Сказочное заморское яство',
     title: 'Нямушка',
     taste: 'с фуа-гра',
     amount: '10 порций',
@@ -12,7 +12,7 @@ const productsData = [
   },
   {
 		id: 2,
-    pretitle: 'Сказочное заморское явство',
+    pretitle: 'Сказочное заморское яство',
     title: 'Нямушка',
     taste: 'с рыбой',
     amount: '40 порций',
@@ -23,7 +23,7 @@ const productsData = [
   },
   {
 		id: 3,
-    pretitle: 'Сказочное заморское явство',
+    pretitle: 'Сказочное заморское яство',
     title: 'Нямушка',
     taste: 'с курой',
     amount: '100 порций',
