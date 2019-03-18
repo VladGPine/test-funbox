@@ -10,7 +10,7 @@
   background-color: #f2f2f2;
   background-image: url(../img/cat-preview.png);
   background-repeat: no-repeat;
-  background-position: -25px 205px;
+  background-position: -24px 207px;
   border-radius: 5px;
 }
 
@@ -30,9 +30,9 @@
 .product-pretitle {
   font-size: 16px;
   color: #666666;
-  padding-top: 20px;
+  padding-top: 21px;
   margin-left: 48px;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 }
 
 
@@ -41,7 +41,7 @@
   font-weight: bold;
   color: #000000;
   margin-left: 46px;
-  margin-bottom: -1px;
+  margin-bottom: -2px;
   
 }
 
