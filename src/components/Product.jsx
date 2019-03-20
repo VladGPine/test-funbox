@@ -29,7 +29,7 @@ function Product(props) {
         </div>
         
       </foreignObject>
-      <path d='M 45 2 L 312 2 Q 318 2 318 8 L 318 472 Q 318 478 312 478 L 8 478 Q 2 478 2 472 L 2 45 Z' stroke='#1698d9' fill='none' stroke-width="4px" />
+      <path d='M 45 2 L 310 2 Q 318 2 318 10 L 318 470 Q 318 478 310 478 L 10 478 Q 2 478 2 470 L 2 45 Z' stroke='#1698d9' fill='none' stroke-width="4px" />
       <circle r='40' cx='265' cy='425' fill='#1698d9' />
       <text className='product-weight' x='264' y='431'>
       <tspan>{weight}</tspan>
