@@ -72,11 +72,21 @@ label {
 }
 
 .product-details {
-  /* margin-top: 10px; */
-  /* margin-right: 3px; */
   font-family: 'Trebuchet MS', sans-serif;
   font-size: 13px;
   color: #ffffff;
+}
+
+.product-details a {
+  color: #1698d9;
+  text-decoration: none;
+  border-bottom: 1px dashed #1698d9;
+}
+
+.product-details-disabled {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 13px;
+  color: #ffff66;
 }
 
 .product-weight {
@@ -96,6 +106,7 @@ label {
 input[type='checkbox'] {
   display: none;
 }
+
 
 
 

@@ -4,9 +4,8 @@ import productsData from '../products'
 
 import './product-list.css'
 
-// import '../img/1.jpg';
-
 function ProductList() {
+
   const products = productsData.map(item => <Product key={item.id} product={item} />);
 
   return (
