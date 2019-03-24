@@ -1,8 +1,6 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
 
 import './product.css';
-
 
 class Product extends React.Component {
   constructor(props) {

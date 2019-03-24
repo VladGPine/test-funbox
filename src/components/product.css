@@ -14,6 +14,10 @@ label {
   clip-path: polygon(45px 0px, 320px 0px, 320px 480px, 0px 480px, 0px 45px);
 }
 
+input[type='checkbox'] {
+  display: none;
+}
+
 .product {
   width: 320px;
   height: 480px;
@@ -103,10 +107,27 @@ label {
   font-size: 21px;
 }
 
-input[type='checkbox'] {
-  display: none;
+/* Need to fix it with hover */
+
+/* label:hover svg path {
+  stroke: #2ea8e5;
 }
 
+label:hover svg circle {
+  fill: #2ea8e5;
+}
+
+label:hover + .product-details a {
+  color: #2ea8e5;
+}
+
+label:hover input:disabled svg path {
+  stroke: #b3b3b3 !important;
+} */
+
+/* label:hover input[type='checkbox']:disabled svg circle { 
+  fill: #b3b3b3;
+} */
 
 
 
